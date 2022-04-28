@@ -27,7 +27,7 @@ class HashTable {
       return null;
     }
 
-    return this.data[idx].find((x) => x[0] === key)[1];
+    return this.table[idx].find((x) => x[0] === key)[1];
   }
 }
 
